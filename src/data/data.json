@@ -1,0 +1,17 @@
+[
+    {
+        "url":"src/assets/imges/rocket.png",
+        "count":"2,500",
+        "desc":"enterprise organizations successfully launched"
+    },
+    {
+        "url":"src/assets/imges/online-order.png",
+        "count":"45,000",
+        "desc":"enterprise users onboarded seamlessly"
+    },
+    {
+        "url":"/src/assets/imges/discussion.png",
+        "count":"200,000+",
+        "desc":"professional trained on product and strategy"
+    }
+]

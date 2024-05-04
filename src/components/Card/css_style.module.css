@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.CardSection{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    font-family: "Roboto", sans-serif;
+}
+.singleCard{
+    display:flex;
+    flex-direction:column;
+    width:30%;
+    padding:2rem;
+    justify-content:center;
+    align-items:center;
+    gap:1.5rem;
+}
+.CardImg{
+    width:60%;
+}
+@media only screen and (max-width:425px){
+    .CardSection{
+        width:100%;
+        margin-top:0.5rem;
+        display:flex;
+        flex-direction:column;
+        gap:1rem;
+    }
+    .singleCard{
+        padding:0;
+        width:100%;
+        text-align:center;
+    }
+}
+

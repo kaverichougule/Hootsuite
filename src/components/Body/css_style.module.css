@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.heroSection{
+    font-family: "Roboto", sans-serif;
+    background-color:#18315B;
+    height:100%;
+    padding:4rem 2rem;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:2rem;
+}
+.heroSection h1{
+    font-size:3rem;
+    font-weight: 900;
+
+}
+.heroSectionPara{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:0.4rem;
+    font-size:1.1rem;
+    font-weight: 400;
+}
+.reqDemo{
+    color:#fff;
+    background-color:#2B873D;
+    border:none;
+    padding:0.6rem 1.2rem;
+}
+@media only screen and (min-width: 768px){
+    .heroSection{
+        text-align:center;
+    }
+    .reqDemo{
+        width:20%;
+    }
+}
